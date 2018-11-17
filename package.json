@@ -1,0 +1,23 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+
+}
